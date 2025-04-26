@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+    font-family: "Montserrat";
+}
+
+:root {
+    --bg-color-primary: #1E1E28;
+    --bg-color-secondary: #1A1A23;
+    --bg-color-tertiary: #262633;
+
+    --color-01: #D0549F;
+    --color-02: #FF6363;
+    --color-03: #ACACAC;
+    --color-04: #575757;
+    --color-05: #D0C454;
+    --color-06: #97f06e;
+    --color-07: #7abd5c;
+}
+
+.red-theme {
+    --color-03: #FF6363;
+}
+
+.green-theme {
+    --color-03: #97f06e;
+}
+
+.pink-theme {
+    --color-03: #fe86ca;
+}
+
+// :root {
+//     --bg-color-primary: #1E1E28;
+//     --bg-color-secondary: #1A1A23;
+//     --bg-color-tertiary: #262633;
+
+//     --color-01: #D0549F;
+//     --color-02: #FF6363;
+//     --color-03: #100f0f;
+//     --color-04: #0e0e0e;
+//     --color-05: #D0C454;
+//     --color-06: #212020;
+// }
+
+// body {
+//     background: var(--bg-color-primary);
+//     min-height: 100%;
+// }
+
+html, body {
+    // background: white;
+    background: var(--bg-color-primary);
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    // height: 100%;
+    height: 100vh;
+}
+
+// body, html {
+//     background: var(--bg-color-primary);
+//     height: 100%;
+// }
+
+// main {
+//     display: flex;
+//     height: 100vh;
+// }
+
+// .side-content {
+//     background: #1A1A23;
+//     width: 30vh;
+//     height: 100vh;
+
+//     @media (max-width: 1500px) {
+//         display: none;
+//     }
+// }
+
+.main-content {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
